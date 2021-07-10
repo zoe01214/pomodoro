@@ -13,8 +13,6 @@ Vue.use(VueApexCharts)
 
 Vue.component('apexchart', VueApexCharts)
 
-library.add(faList)
-Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 
 new Vue({
